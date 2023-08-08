@@ -39,7 +39,7 @@ const { Title, Paragraph, Text } = Typography;
 
 
 const App = () => {
-  const [translate, setTranslate] = useState<boolean>(false)
+  const [translate, setTranslate] = useState<boolean>(true)
 
   return (<Row>
     <Col sm={24}>
